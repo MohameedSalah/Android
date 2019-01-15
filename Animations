@@ -1,0 +1,4 @@
+                TranslateAnimation translateAnimation=new TranslateAnimation(1,0,1,0,2,-.5f,1,0);
+                translateAnimation.setDuration(300);
+                MediaPlayer mediaPlayer=MediaPlayer.create(TestLevel.this,R.raw.card);
+                mediaPlayer.start();
